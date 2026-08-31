@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SIMPLE QUIZ"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Which planet is known as the Red Planet?"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbEarth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Earth" />
+
+            <RadioButton
+                android:id="@+id/rbMars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mars" />
+
+            <RadioButton
+                android:id="@+id/rbJupiter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jupiter" />
+
+            <RadioButton
+                android:id="@+id/rbVenus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venus" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. How many days are there in a week?"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5" />
+
+            <RadioButton
+                android:id="@+id/rbSix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6" />
+
+            <RadioButton
+                android:id="@+id/rbSeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7" />
+
+            <RadioButton
+                android:id="@+id/rbEight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Which animal is known as the King of the Jungle?"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbElephant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Elephant" />
+
+            <RadioButton
+                android:id="@+id/rbLion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lion" />
+
+            <RadioButton
+                android:id="@+id/rbTiger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiger" />
+
+            <RadioButton
+                android:id="@+id/rbDeer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deer" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. What is 10 + 5?"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10" />
+
+            <RadioButton
+                android:id="@+id/rbFifteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="15" />
+
+            <RadioButton
+                android:id="@+id/rbTwenty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20" />
+
+            <RadioButton
+                android:id="@+id/rbTwentyFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Which is the largest ocean?"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbIndian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indian Ocean" />
+
+            <RadioButton
+                android:id="@+id/rbAtlantic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atlantic Ocean" />
+
+            <RadioButton
+                android:id="@+id/rbPacific"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pacific Ocean" />
+
+            <RadioButton
+                android:id="@+id/rbArctic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arctic Ocean" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SUBMIT QUIZ"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F4EE">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ APPLICATION"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:textColor="#17324D"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome, Student!"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#168A8A"
+            android:layout_marginTop="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test your knowledge and improve your skills!"
+            android:textSize="16sp"
+            android:textColor="#667085"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnStartQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="START QUIZ"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#168A8A"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/btnViewScore"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="VIEW SCORE"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E58A32"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="ABOUT APP"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5277A3"
+            android:layout_marginBottom="14dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="LOGOUT"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#C95C5C" />
+
+    </LinearLayout>
+
+</ScrollView>
